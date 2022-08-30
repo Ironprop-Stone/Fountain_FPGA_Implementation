@@ -12,6 +12,8 @@ This is the hardware implementation of Fountain stream cipher. We recommand to i
 The input signal is processed by an ADC module and encrypted by FPGA chip with high speed. Finally, the cipher text is produced via a DAC module. 
 
 Left: before encryption; Right: after encryption
+
+
 ![image](figure/plaintext.jpg)
 ![image](figure/ciphertext.jpg)
 
