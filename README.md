@@ -11,6 +11,7 @@ Fountain is a 128-bit lightweight stream cipher supporting authenticated encrypt
 This is the hardware implementation of Fountain stream cipher. We recommand to implement this repo on PYNQ-Z2 board. 
 The input signal is processed by an ADC module and encrypted by FPGA chip with high speed. Finally, the cipher text is produced via a DAC module. 
 
+Left: before encryption; Right: after encryption
 ![image](figure/plaintext.jpg)
 ![image](figure/ciphertext.jpg)
 
