@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# 
+# Start of session at: Wed Aug  7 16:23:03 2019
+# Process ID: 22513
+# Current directory: /home/zhengyuan/src/FPGA_Studio/10_ad9708_dma/dma_dac.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/zhengyuan/src/FPGA_Studio/10_ad9708_dma/dma_dac.sdk/webtalk/webtalk.log
+# Journal file: /home/zhengyuan/src/FPGA_Studio/10_ad9708_dma/dma_dac.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]/home/zhengyuan/src/FPGA_Studio/10_ad9708_dma/dma_dac.sdk/fsbl/Debug/fsbl.elf
+	/home/zhengyuan/src/FPGA_Studio/10_ad9708_dma/dma_dac.runs/impl_1/top_wrapper.bit
+	/home/zhengyuan/src/FPGA_Studio/10_ad9708_dma/dma_dac.sdk/da/Debug/da.elf
+}

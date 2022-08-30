@@ -1,0 +1,29 @@
+15:11:25 **** Incremental Build of configuration Debug for project da ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dma_da.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_da.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../da_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dma_da.d" -MT"src/dma_da.o" -o "src/dma_da.o" "../src/dma_da.c"
+../src/dma_da.c: In function 'XAxiDma_DAC':
+../src/dma_da.c:104:6: warning: unused variable 'wave_sel' [-Wunused-variable]
+  int wave_sel = 0, freq = BEGIN_FREQ;
+      ^~~~~~~~
+'Finished building: ../src/dma_da.c'
+' '
+'Building target: da.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../da_bsp/ps7_cortexa9_0/lib -o "da.elf"  ./src/dma_da.o ./src/wave.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: da.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size da.elf  |tee "da.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  53716	   3040	248024640	248081396	ec96bf4	da.elf
+'Finished building: da.elf.size'
+' '
+15:13:04 **** Incremental Build of configuration Debug for project da ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.

@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]D:\intel_project\AX7015\new\update\release\08_dma_dac\dma_dac.sdk\fsbl\Debug\fsbl.elf
+	D:\intel_project\AX7015\new\update\release\08_dma_dac\dma_dac.sdk\top_wrapper_hw_platform_0\top_wrapper.bit
+	D:\intel_project\AX7015\new\update\release\08_dma_dac\dma_dac.sdk\dma_da\Debug\dma_da.elf
+}
